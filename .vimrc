@@ -39,3 +39,6 @@ syntax on
 
 " Spelling
 set spell spelllang=en_gb
+
+" Line numbers
+set number
