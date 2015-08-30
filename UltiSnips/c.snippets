@@ -1,0 +1,53 @@
+global !p
+import re
+endglobal
+
+snippet inc
+#include <$1.h>
+$0
+endsnippet
+
+snippet Inc
+#include "$1.h"
+$0
+endsnippet
+
+snippet ind
+#ifndef ${1:`!p
+if fn[-2:] == ".h":
+    snip.rv = "__{}__".format(re.sub(r"\W", "_", fn.upper()))
+`}
+#define $1
+
+$0
+
+#endif  // $1
+endsnippet
+
+snippet if
+if ($1)
+{
+  $0
+}
+endsnippet
+
+snippet for
+for ($1; $2; $3)
+{
+  $0
+}
+endsnippet
+
+snippet while
+while ($1)
+{
+  $0
+}
+endsnippet
+
+snippet tds
+typedef struct _$1
+{
+  $0
+} $1_t;
+endsnippet
