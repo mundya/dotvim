@@ -42,3 +42,7 @@ set spell spelllang=en_gb
 
 " Line numbers
 set number
+
+" Set the colorscheme to gruvbox on a dark background
+colorscheme gruvbox
+set background=dark
