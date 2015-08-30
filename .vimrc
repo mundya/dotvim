@@ -18,3 +18,9 @@ Plugin 'morhetz/gruvbox'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Generally want syntax highlighting
+syntax on
+
+" Spelling
+set spell spelllang=en_gb
