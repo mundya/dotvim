@@ -1,2 +1,2 @@
-" Set the font to Inconsolata
-set guifont=inconsolata
+" Set the font to Source Code Pro
+set guifont="Source Code Pro"
