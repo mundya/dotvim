@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'morhetz/gruvbox'
+Plugin 'nvie/vim-flake8'
 
 " Track the engine.
 Plugin 'SirVer/ultisnips'
