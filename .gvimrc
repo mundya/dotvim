@@ -1,2 +1,2 @@
-" Set the font to Source Code Pro
-set guifont="Source Code Pro"
+" Set the font to Terminus
+set guifont=Terminus\ 8
