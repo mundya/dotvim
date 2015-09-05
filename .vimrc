@@ -47,3 +47,6 @@ set number
 " Set the colorscheme to gruvbox on a dark background
 colorscheme gruvbox
 set background=dark
+
+" Highlight search results
+:set hlsearch
