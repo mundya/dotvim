@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'morhetz/gruvbox'
 Plugin 'nvie/vim-flake8'
+Plugin 'michaeljsmith/vim-indent-object'
 
 " Track the engine.
 Plugin 'SirVer/ultisnips'
